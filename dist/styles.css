@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin-Sans", "Helvetica", "sans-serif";
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../../fonts/JosefinSans-VariableFont_wght.ttf");
+}
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --grey-200: #D8D8D8;
+  --blue-50: #F6FAFF;
+  --blue-100: #E5EAF1;
+  --gradient: linear-gradient(#000000 0%, #000000 60%);
+}
+
+.header {
+  background-image: url("../../../images/mobile/image-hero.jpg");
+  background-size: cover;
+  height: 100vh;
+}/*# sourceMappingURL=styles.css.map */
