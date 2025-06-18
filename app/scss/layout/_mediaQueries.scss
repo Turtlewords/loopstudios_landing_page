@@ -40,3 +40,64 @@
 
     
 }
+
+
+@media (min-width: 1400px) {
+
+    .container {
+        align-items: center;
+    }
+
+    .footer {
+        align-self: stretch;
+    }
+
+    .main {
+        width: clamp(800px, 85%, 1400px);
+    }
+
+
+    .header__title {
+        width: 60%;
+    }
+    
+    .header {
+        background-image: url("../../../images/desktop/image-hero.jpg");
+    }
+
+    .leader {
+        position: relative;
+    }
+
+    .leader__img {
+        background-image: url("../../../images/desktop/image-interactive.jpg");
+        height: 550px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .leader__content {
+        position: absolute;
+        bottom: 0;
+        right: 12rem;
+        z-index: 1;
+        background-color: white;
+        padding: 3rem 3rem 0;
+        width: 600px;
+        height: 300px;
+    }
+
+    .content__copy {
+        margin-bottom: 0;
+    }
+
+
+    .leader__title, .creations__title {
+    font-size: 3rem;
+    }
+
+    .creations__card {
+        height: fit-content;
+        width: fit-content;
+    }
+}
