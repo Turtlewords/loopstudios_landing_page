@@ -112,3 +112,26 @@
     justify-content: center;
     gap: 1rem;
 }
+
+.slide-menu {
+    background-color: colors.$black;
+    width: 0;
+    transition: .6s;
+    
+}
+.slide-menu__container {
+    padding: 3rem;
+}
+
+.slide-menu__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15vh;
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
