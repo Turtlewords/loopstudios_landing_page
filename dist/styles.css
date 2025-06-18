@@ -214,9 +214,15 @@ img {
 }
 
 .slide-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  inset: 0;
   background-color: #000000;
   width: 0;
   transition: 0.6s;
+  overflow: hidden;
 }
 
 .slide-menu__container {

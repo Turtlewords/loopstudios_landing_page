@@ -114,9 +114,15 @@
 }
 
 .slide-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    inset: 0;
     background-color: colors.$black;
     width: 0;
     transition: .6s;
+    overflow: hidden;
     
 }
 .slide-menu__container {
