@@ -107,6 +107,12 @@
     gap: .5rem;
 }
 
+.footer__container--right {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
 .footer__social {
     display: flex;
     justify-content: center;
@@ -123,17 +129,25 @@
     width: 0;
     transition: .6s;
     overflow: hidden;
-    
-}
-.slide-menu__container {
-    padding: 3rem;
-}
 
-.slide-menu__top {
-    display: flex;
+    &__container {
+        padding: 3rem;
+    }
+
+    &__top {
+        display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15vh;
+    }
+    
+}
+.slide-menu__container {
+    
+}
+
+.slide-menu__top {
+    
 }
 
 .menu-nav {

@@ -207,6 +207,12 @@ img {
   gap: 0.5rem;
 }
 
+.footer__container--right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .footer__social {
   display: flex;
   justify-content: center;
@@ -224,11 +230,9 @@ img {
   transition: 0.6s;
   overflow: hidden;
 }
-
 .slide-menu__container {
   padding: 3rem;
 }
-
 .slide-menu__top {
   display: flex;
   align-items: center;
