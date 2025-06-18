@@ -12,7 +12,7 @@
     font-weight: 300;
     text-transform: uppercase;
     line-height: 1.2;
-    font-size: clamp(2rem, 2.25rem + 2vw, 4rem);
+    font-size: clamp(2rem, 2.25rem + 3vw, 7rem);
 }
 
 .leader__title, .creations__title {
@@ -65,11 +65,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin: 2rem;
-}
-
-.list__item {
-
+    
 }
 
 .list__link {
@@ -78,6 +74,7 @@
 
 .footer__copyright {
     color: colors.$grey-400;
+    margin: 0;
 }
 
 .menu__item {

@@ -6,6 +6,10 @@
     gap: 4rem;
 }
 
+.main {
+    margin: 0 1.5rem;
+}
+
 .header {
     background-image: url("../../../images/mobile/image-hero.jpg");
     background-size: cover;
@@ -27,8 +31,14 @@
     left: 1.5rem;
 }
 
+.leader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .leader, .creations {
-    padding: 1.5rem;
+    // padding: 1.5rem;
 }
 
 .leader__content {
@@ -104,20 +114,31 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: .5rem;
+    gap: 2rem;
+
+
+
+
+    &__container--right, &__container--left {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
 }
 
-.footer__container--right {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-}
+// .footer__container--right {
+    
+// }
 
-.footer__social {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
+// .footer__social {
+    
+// }
 
 .slide-menu {
     height: 100%;
@@ -142,13 +163,13 @@
     }
     
 }
-.slide-menu__container {
+// .slide-menu__container {
     
-}
+// }
 
-.slide-menu__top {
+// .slide-menu__top {
     
-}
+// }
 
 .menu-nav {
     display: flex;

@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+
+    .header {
+        height: 60vh;
+        padding: 4rem;
+    } 
+
+    .header__head {
+        width: calc(100% - 8rem);
+        top: 4rem;
+        left: 4rem;
+    }
+
+    .main {
+        margin: 0 4rem;
+    }
+
+    .leader__img {
+        height: 320px;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem 4rem;
+    }
+
+    .footer__container--left {
+        align-items: flex-start;
+    }
+
+    .footer__container--right {
+        align-items: flex-end;
+    }
+
+    .nav__list {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    
+}
