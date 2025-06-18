@@ -30,6 +30,7 @@ img {
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .content__copy {
@@ -55,6 +56,34 @@ img {
 
 .creations__link:hover {
   cursor: pointer;
+}
+
+.card__title {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 125px;
+  margin: 0;
+  position: absolute;
+  left: 1rem;
+  bottom: 2rem;
+}
+
+.nav__list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.list__link {
+  color: #FFFFFF;
+}
+
+.footer__copyright {
+  color: #818181;
 }
 
 .head__logo {
@@ -99,7 +128,7 @@ img {
 .creations {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 3rem;
   align-items: center;
 }
 
@@ -113,10 +142,61 @@ img {
 .creations__card {
   width: 100%;
   height: 8rem;
-  background-color: aquamarine;
+  box-shadow: inset 0 0 0 2000px rgba(10, 10, 10, 0.3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .creations__card:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+
+#deep-earth {
+  background-image: url("../../../images/mobile/image-deep-earth.jpg");
+}
+
+#night-arcade {
+  background-image: url("../../../images/mobile/image-night-arcade.jpg");
+}
+
+#soccer {
+  background-image: url("../../../images/mobile/image-soccer-team.jpg");
+}
+
+#the-grid {
+  background-image: url("../../../images/mobile/image-grid.jpg");
+}
+
+#from-up-above {
+  background-image: url("../../../images/mobile/image-from-above.jpg");
+}
+
+#borealis {
+  background-image: url("../../../images/mobile/image-pocket-borealis.jpg");
+}
+
+#curiosity {
+  background-image: url("../../../images/mobile/image-curiosity.jpg");
+}
+
+#fisheye {
+  background-image: url("../../../images/mobile/image-fisheye.jpg");
+}
+
+.footer {
+  padding: 3rem;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }/*# sourceMappingURL=styles.css.map */
