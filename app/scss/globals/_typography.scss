@@ -9,10 +9,11 @@
     color: colors.$white;
     border: 1px solid colors.$white;
     padding: 1rem;
+    margin: 0;
     font-weight: 300;
     text-transform: uppercase;
     line-height: 1.2;
-    font-size: clamp(2rem, 2.25rem + 3vw, 7rem);
+    font-size: clamp(2rem, 2.25rem + 2vw, 5rem);
 }
 
 .leader__title, .creations__title {

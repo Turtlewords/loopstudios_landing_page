@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 
     .header {
         height: 60vh;
@@ -19,7 +19,7 @@
         height: 320px;
     }
 
-    .footer {
+    .footer__container {
         flex-direction: row;
         justify-content: space-between;
         padding: 3rem 4rem;
@@ -31,6 +31,10 @@
 
     .footer__container--right {
         align-items: flex-end;
+    }
+
+    .footer__copyright {
+        text-align: end;
     }
 
     .nav__list {
