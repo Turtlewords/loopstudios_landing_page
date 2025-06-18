@@ -1,4 +1,48 @@
+@use "colors";
+
 @font-face {
     font-family: "Josefin-Sans";
     src: url("../../../fonts/JosefinSans-VariableFont_wght.ttf");
+}
+
+.header__title {
+    color: colors.$white;
+    border: 1px solid colors.$white;
+    padding: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-size: clamp(2rem, 2.25rem + 2vw, 4rem);
+}
+
+.leader__title, .creations__title {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.content__copy {
+    color: colors.$grey-400;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
+
+.creations__title {
+    text-align: center;
+}
+
+.creations__link {
+    text-decoration: none;
+    color: colors.$black;
+    letter-spacing: .25rem;
+    font-size: 1.125rem;
+    border: 2px solid colors.$black;
+    padding: .75rem 3rem;
+    width: fit-content;
+}
+
+.creations__link:hover {
+    cursor: pointer;
 }
