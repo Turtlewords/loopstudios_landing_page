@@ -47,6 +47,8 @@
 
 .creations__link:hover {
     cursor: pointer;
+    color: colors.$white;
+    background-color: colors.$black;
 }
 
 .card__title {
@@ -71,11 +73,21 @@
 
 .list__link {
     color: colors.$white;
+    padding: .75rem 0;
+    background-color: transparent; 
+    
+}
+
+.list__link:hover {
+    cursor: pointer;
+    background: linear-gradient(hsla(0, 2%, 90%, 0.7) 0 0) center bottom / 100% 5px no-repeat;
+    background-size: 50% 3px;
 }
 
 .footer__copyright {
     color: colors.$grey-400;
     margin: 0;
+    
 }
 
 .menu__item {
@@ -88,6 +100,7 @@
     font-size: 1.25rem;
     font-weight: 100;
     text-transform: uppercase;
+    
 }
 
 .desktop-nav__list {
@@ -101,5 +114,12 @@
 
 .desktop__link {
     color: colors.$white;
+    padding: .75rem 0;
+    background-color: transparent; 
 }
 
+.desktop__link:hover {
+    cursor: pointer;
+    background: linear-gradient(hsla(0, 2%, 90%, 0.7) 0 0) center bottom / 100% 5px no-repeat;
+    background-size: 50% 3px;
+ }
