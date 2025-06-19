@@ -20,17 +20,26 @@
     }
 
     .footer__container {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: clamp(800px, 85%, 1400px);
+        padding: 3rem 0;
+        gap: 0;
+    }
+
+    .footer__container--right, .footer__container--left {
         justify-content: space-between;
-        padding: 3rem 4rem;
+        gap: 0;
     }
 
     .footer__container--left {
         align-items: flex-start;
+        height: 70px;
     }
 
     .footer__container--right {
         align-items: flex-end;
+        height: 70px;
     }
 
     .footer__copyright {
@@ -50,6 +59,7 @@
 
     .container {
         align-items: center;
+        gap: 8rem;
     }
 
     .footer {
@@ -57,9 +67,19 @@
     }
 
     .main {
+        display: flex;
+        flex-direction: column;
         width: clamp(800px, 85%, 1400px);
+        gap: 8rem;
     }
 
+    .mobile-header {
+        display: none;
+    }
+
+    .desktop-header {
+        display: block;
+    }
 
     .header__title {
         width: 60%;
@@ -100,8 +120,31 @@
     font-size: 3rem;
     }
 
+    .desktop-creations {
+        display: flex;
+        
+    }
+
+    .creations__title {
+        margin: 0;
+    }
+
+    .creations {
+        display: none;
+    }
+
+    
+
     .creations__card {
-        height: fit-content;
+        height: auto;
         width: fit-content;
+        // width: 100%;
+        // height: 8rem;
+        flex-grow: 1;
+        box-shadow: inset 0 0 0 2000px rgba(10, 10, 10, .3);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        display: flex;
     }
 }
