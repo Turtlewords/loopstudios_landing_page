@@ -97,7 +97,7 @@
         height: 100%;
         flex-direction: column;
         justify-content: space-around;
-        padding-top: 0;
+        padding: 0 0 3rem;
     }
 
     .header__title {
@@ -107,11 +107,13 @@
     
     .header {
         background-image: url("../images/desktop/image-hero.jpg");
+        padding: 0;
+        justify-content: center;
     }
 
     .leader {
         position: relative;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .leader__img {

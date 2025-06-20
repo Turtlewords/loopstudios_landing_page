@@ -106,7 +106,7 @@ img {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 1.25rem;
-  font-weight: 100;
+  font-weight: 200;
   text-transform: uppercase;
 }
 
@@ -316,6 +316,7 @@ img {
 .desktop-header {
   padding: 4rem;
   display: none;
+  width: clamp(800px, 80%, 1300px);
 }
 
 .desktop-header__head {
@@ -412,7 +413,7 @@ img {
     height: 100%;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 0;
+    padding: 0 0 3rem;
   }
   .header__title {
     width: 60%;
@@ -420,10 +421,12 @@ img {
   }
   .header {
     background-image: url("../images/desktop/image-hero.jpg");
+    padding: 0;
+    justify-content: center;
   }
   .leader {
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .leader__img {
     background-image: url("../images/desktop/image-interactive.jpg");
