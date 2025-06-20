@@ -1,7 +1,7 @@
 @media (min-width: 767px) {
 
     .header {
-        height: 60vh;
+        height: 70vh;
         padding: 4rem;
     } 
 
@@ -22,7 +22,7 @@
     .footer__container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: clamp(800px, 85%, 1400px);
+        width: clamp(800px, 80%, 1300px);
         padding: 3rem 0;
         gap: 0;
     }
@@ -59,7 +59,7 @@
 
     .container {
         align-items: center;
-        gap: 8rem;
+        gap: 10rem;
     }
 
     .footer {
@@ -69,7 +69,7 @@
     .main {
         display: flex;
         flex-direction: column;
-        width: clamp(800px, 85%, 1400px);
+        width: clamp(800px, 80%, 1300px);
         gap: 8rem;
     }
 
