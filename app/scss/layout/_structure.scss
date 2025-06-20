@@ -190,9 +190,8 @@
 .desktop-header__head {
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    width: clamp(800px, 80%, 1300px);
-    top: 5vh;
+    width: clamp(800px, 100%, 1300px);
+    
 }
 
 .desktop-creations__head {

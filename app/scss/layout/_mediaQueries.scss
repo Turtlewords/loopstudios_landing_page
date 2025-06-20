@@ -1,7 +1,7 @@
 @media (min-width: 767px) {
 
     .header {
-        height: 70vh;
+        height: 72vh;
         padding: 4rem;
     } 
 
@@ -73,12 +73,18 @@
         gap: 8rem;
     }
 
+    
+
     .mobile-header {
         display: none;
     }
 
     .desktop-header {
-        display: block;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 0;
     }
 
     .header__title {
@@ -91,11 +97,12 @@
 
     .leader {
         position: relative;
+        margin-bottom: 2rem;
     }
 
     .leader__img {
         background-image: url("../images/desktop/image-interactive.jpg");
-        height: 520px;
+        height: 500px;
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -148,7 +155,10 @@
         display: flex;
     }
 
-    .card-title {
+    .card__title {
         font-size: 2rem;
+        width: 170px;
     }
+
+    
 }
