@@ -17,14 +17,15 @@ img {
   src: url("../fonts/JosefinSans-VariableFont_wght.ttf");
 }
 .header__title {
+  display: flex;
+  align-items: center;
   color: #FFFFFF;
   border: 2px solid #FFFFFF;
   padding: 1rem;
   margin: 0;
   font-weight: 200;
   text-transform: uppercase;
-  line-height: 1.2;
-  font-size: clamp(2rem, 1rem + 3vw, 4.5rem);
+  font-size: clamp(2.7rem, 1rem + 3vw, 4.5rem);
 }
 
 .leader__title, .creations__title {
@@ -129,7 +130,11 @@ img {
   background-size: 50% 3px;
 }
 
-.head__logo {
+.mobile-head__logo {
+  height: 1.5rem;
+}
+
+.slide-menu__logo {
   height: 1.5rem;
 }
 
@@ -282,7 +287,7 @@ img {
   overflow: hidden;
 }
 .slide-menu__container {
-  padding: 3rem;
+  padding: 1.5rem;
 }
 .slide-menu__top {
   display: flex;
@@ -295,6 +300,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  padding: 0;
 }
 
 .desktop-creations {
@@ -336,10 +342,20 @@ img {
     height: 72vh;
     padding: 4rem;
   }
-  .header__head {
+  .mobile-header__head {
     width: calc(100% - 8rem);
     top: 4rem;
     left: 4rem;
+  }
+  .mobile-head__logo, .slide-menu__logo {
+    height: 2rem;
+  }
+  .header__title {
+    font-size: 4.5rem;
+    padding: 3rem;
+  }
+  .slide-menu__container {
+    padding: 4rem;
   }
   .main {
     margin: 0 4rem;
@@ -350,7 +366,7 @@ img {
   .footer__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: clamp(800px, 80%, 1300px);
+    width: clamp(500px, 80%, 1300px);
     padding: 3rem 0;
     gap: 0;
   }
@@ -400,6 +416,7 @@ img {
   }
   .header__title {
     width: 60%;
+    padding: 3rem 0 3rem 2rem;
   }
   .header {
     background-image: url("../images/desktop/image-hero.jpg");
