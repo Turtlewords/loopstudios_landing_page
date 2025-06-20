@@ -136,7 +136,7 @@ img {
 .leader__img {
   height: 225px;
   width: 100%;
-  background-image: url("../../../images/mobile/image-interactive.jpg");
+  background-image: url("../images/mobile/image-interactive.jpg");
   background-size: cover;
 }
 
@@ -253,6 +253,7 @@ img {
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  gap: 1rem;
 }
 
 .footer__container--right, .footer__container--left {
