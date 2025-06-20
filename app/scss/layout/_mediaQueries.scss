@@ -95,7 +95,7 @@
 
     .leader__img {
         background-image: url("../images/desktop/image-interactive.jpg");
-        height: 550px;
+        height: 520px;
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -103,7 +103,7 @@
     .leader__content {
         position: absolute;
         bottom: 0;
-        right: 12rem;
+        right: 5rem;
         z-index: 1;
         background-color: white;
         padding: 3rem 3rem 0;
@@ -146,5 +146,9 @@
         background-repeat: no-repeat;
         position: relative;
         display: flex;
+    }
+
+    .card-title {
+        font-size: 2rem;
     }
 }
