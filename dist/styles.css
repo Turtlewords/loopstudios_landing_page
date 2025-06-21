@@ -96,6 +96,7 @@ img {
 .footer__copyright {
   color: #818181;
   margin: 0;
+  font-size: 0.9rem;
 }
 
 .menu__item {
@@ -143,6 +144,10 @@ img {
   width: 100%;
   background-image: url("../images/mobile/image-interactive.jpg");
   background-size: cover;
+}
+
+.footer__logo {
+  height: 1.5rem;
 }
 
 .container {
@@ -373,17 +378,15 @@ img {
     padding: 3rem 0;
     gap: 0;
   }
-  .footer__container--right, .footer__container--left {
-    justify-content: space-between;
-    gap: 0;
+  .footer__container--left, .footer__container--right {
+    height: 80px;
+    gap: 1.5rem;
   }
   .footer__container--left {
     align-items: flex-start;
-    height: 80px;
   }
   .footer__container--right {
     align-items: flex-end;
-    height: 80px;
   }
   .footer__copyright {
     text-align: end;
@@ -474,5 +477,6 @@ img {
   .card__title {
     font-size: 2rem;
     width: 170px;
+    left: 3rem;
   }
 }/*# sourceMappingURL=styles.css.map */
